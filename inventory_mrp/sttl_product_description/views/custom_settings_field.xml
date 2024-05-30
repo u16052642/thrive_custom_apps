@@ -1,0 +1,26 @@
+<thrive>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.product.description</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='contacts_settings']" position="after">
+                <div id="openai">
+                    <h2>Product Description</h2>
+                    <div class="row mt16 o_settings_container" id="product_description_div">
+                        <div class="col-12 col-lg-6 o_setting_box">
+                            <div class="o_setting_right_pane">
+                                <label string="Generate product description" for="productDescription" />
+                                <div class="text-muted" id="msg_module_openai">Generate description for product 
+                                    which doesn't have description (after every 10 minutes)</div>
+                                <div>
+                                    <field name="productDescription" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</thrive>
