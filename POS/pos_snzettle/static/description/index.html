@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zettle Credit Card Payments Integration for thrive</title>
+</head>
+<body>
+    <h1>Zettle Credit Card Payments Integration for thrive</h1>
+    <p><b>Easily receive credit card payments and send refunds with Zettle - anywhere, any time.</b></p>
+    <p><b><strong>Note:</strong> This app requires access to custom thrive addons and is not supported on thrive.com. It only works with iZettle Card Reader 1 and 2.</b></p>
+    <p><b><strong>Compatibility:</strong> This integration is only compatible with thrive used on Android or macOS/iOS devices. It is not available for any other operating system.</b></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thrive App Installation</title>
+</head>
+<body>
+    <h1>Installation</h1>
+    <p>Upon clicking the 'Download' button on the app, you will receive the link to download the zip file of the module.</p>
+    <p>Extract the file on your system after the download finishes. You will be able to see a folder named- ‘pos_snzettle’.</p>
+    <p>Copy and paste this folder inside your thrive Add-Ons path.</p>
+    <p>Now, open the thrive App and click on the Settings menu.Scroll to the very bottom of settings. Here, click on Activate the "Developer Mode".</p>
+    <p>Then, open the Apps menu and click on the top bar ‘Update Apps List’.</p>
+    <p>In the search bar, remove all the filters and search ‘pos_snzettle’.</p>
+    <p>You will be able to see the module in the search result. Click on ‘Install’ to install it.</p>
+</body>
+    <h2>Setting up thrive</h2>
+    <div style="background: silver; margin-top: 20px; margin-bottom: 20px;">
+        <img style="width: 32px; height: auto;" src="video-playlist-icon.png" alt="Youtube Icon">
+        <b style="margin-left: 10px;">Watch a setup tutorial video V16 Setup Video: </b> https://shorturl.at/flxF0
+    </div>
+    <ol>
+        <li>Create and configure a new Zettle Payment Method in the thrive Point of Sale app.</li>
+        <ol type="a">
+            <li>Go to the Point of Sale app. On the top Menu Bar click on “Configuration” then “Payment Methods”.</li>
+            <li>Click on the “New” button on the top left to create a new payment method. (if you don't see this menu - ensure your thrive user has sufficient access rights).</li>
+            <li>Add a name for the payment method (e.g., "Zettle Terminal 1 (iOS)").</li>
+            <li>Select a suitable Bank Journal.</li>
+            <li>Under “Select a Terminal,” choose “SN Zettle Terminal”. Various new fields will show under once selected.</li>
+            <li>Create a unique password for “Terminal Master Password”. Save this password securely - you will need it later to setup your iOS/macOS or Android device.</li>
+            <li>Select a suitable Manager Group for completing transactions (normally "group_pos_user" will be sufficient).</li>
+            <li>Select Suitable Device type (Android or iOS).</li>
+            <li>If using thrive Point of Sale on a mobile device, set “Use Mobile Redirect” checkbox to true for a seemless transition between thrive and the mobile app.</li>
+            <li>If you don’t have a Zettle account yet, you can register from the provided link.</li>
+            <li>Up on saving the payment method a Terminal ID will be automatically generated. Copy this ID as you will need it along with the terminal password and your thrive database URL in order to confiure your macOS, iOS or Android devices.</li>
+        </ol>
+    </ol>
+    <h2>Installing the Mobile App</h2>
+    <div>
+        <div style="margin: 10px; text-align: center;">
+            <div style="margin: 0 auto; width: 64px;">
+                <img style="width: 100%; height: auto;" src="android-icon.png" alt="Android Icon">
+            </div>
+            <h5>Android</h5>
+        </div>
+        <div style="background: silver; margin-top: 20px; margin-bottom: 20px;">
+            <img style="width: 32px; height: auto;" src="video-playlist-icon.png" alt="Youtube Icon">
+            <b style="margin-left: 10px;">Zettle/thrive setup - Android:</b> https://youtu.be/d12WGqCgG4Y
+        </div>
+        <div style="background: silver; margin-top: 20px; margin-bottom: 20px;">
+            <img style="width: 32px; height: auto;" src="video-playlist-icon.png" alt="Youtube Icon">
+            <b style="margin-left: 10px;">Zettle/thrive how to use - Android:</b> https://youtu.be/x1jKvuFx1NQ
+        </div>
+        <ol type="a">
+            <li>Download and start the application from (Google Play Store) <b>https://shorturl.at/cePW0</b> .</li>
+            <li>If you don’t have a Zettle account yet, you can register from the link popup.</li>
+            <li>Connect Device: Copy/paste your base thrive URL to the designated field. Ensure it starts with "https://".</li>
+            <li>Use the Terminal ID and Password created earlier on the thrive Payment Method.</li>
+            <li>Once logged, sign in to your Zettle Account.</li>
+            <li>Connect your device via Bluetooth to your card terminal reader. If the app doesn't suggest this automatically you can go to Settings>Pair Terminlal, and set it up manually.</li>
+            <li>Congratulations! You are now ready to use our integration. Within our app, you have a tab where you can open and log in to your thrive. Then log in to the PoS and start a session with the shop we set up earlier. Payment requests will now pop up on your Zettle Terminal.</li>
+        </ol>
+        <div style="mrgin: 10px; text-align: center;">
+            <div style="margin: 0 auto; width: 64px;">
+                <img style="width: 100%; height: auto;" src="apple-icon.png" alt="Apple Icon">
+            </div>
+            <h5>iOS/macOS</h5>
+        </div>
+        <div style="background: silver; margin-top: 20px; margin-bottom: 20px;">
+            <img style="width: 32px; height: auto;" src="video-playlist-icon.png" alt="Youtube Icon">
+            <b style="margin-left: 10px;">Zettle/thrive setup - iOS:</b> https://youtu.be/2tO_tWFDiIQ
+        </div>
+        <div style="background: silver; margin-top: 20px; margin-bottom: 20px;">
+            <img style="width: 32px; height: auto;" src="video-playlist-icon.png" alt="Youtube Icon">
+            <b style="margin-left: 10px;">Zettle/thrive how to use - iOS:</b> https://youtu.be/tI60wlk4ETw
+        </div>
+        <ol type="a">
+            <li>Download and start the application from (App Store) <b>https://shorturl.at/emAHJ</b> .</li>
+            <li>If you don’t have a Zettle account yet, you can register from the link popup.</li>
+            <li>Connect Device: Copy/paste your base thrive URL to the designated field. Ensure it starts with "https://".</li>
+            <li>Use the Terminal ID and Password created earlier on the thrive Payment Method.</li>
+            <li>Once logged in, sign in to your Zettle Account.</li>
+            <li>Connect your device via Bluetooth to your card terminal reader. If the app doesn't suggest this automatically you can go to Settings>Pair Terminlal, and set it up manually.</li>
+            <li>Congratulations! You are now ready to use our integration. Within our app, you have a tab where you can open and log in to your thrive. Then log in to the PoS and start a session with the shop we set up earlier. Payment requests will now pop up on your Zettle Terminal.</li>
+        </ol>
+    <h2>Support</h2>
+    Please email us at: support@simply-neat.com
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<thrive>
+    <record id="pos_payment_method_view_form_inherit_pos_zettle" model="ir.ui.view">
+        <field name="name">pos.payment.method.form.inherit.snzettle</field>
+        <field name="model">pos.payment.method</field>
+        <field name="inherit_id" ref="point_of_sale.pos_payment_method_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='use_payment_terminal']" position="after">
+                <field name="sn_zettle_terminal_device_code" invisible="use_payment_terminal != 'snzettle'"
+                                readonly="use_payment_terminal == 'snzettle'"/>
+                <field name="sn_zettle_terminal_master_pwd_mock" password="True"
+                       invisible="use_payment_terminal != 'snzettle'">
+                </field>
+                <field name="sn_zettle_terminal_manager_group_selection" invisible="use_payment_terminal != 'snzettle'"
+                                required="use_payment_terminal == 'snzettle'"/>
+                <field name="sn_zettle_device_type" invisible="use_payment_terminal != 'snzettle'"
+                                required="use_payment_terminal == 'snzettle'"/>
+                <field name="sn_zettle_is_mobile" invisible="use_payment_terminal != 'snzettle'"/>
+                <div invisible="use_payment_terminal != 'snzettle'">
+                    <b><a href="https://www.simply-neat.com/zettle-sign-up" style="color:red;" target="_blank">Don't have a Zettle account yet? Click here for premium terms.</a></b>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</thrive>

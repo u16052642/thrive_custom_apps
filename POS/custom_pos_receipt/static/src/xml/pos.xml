@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.ReceiptHeader" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('pos-receipt-contact')]" position="inside">
+            <t t-if="this.env.services.pos.get_order().partner">
+                <h6> Client: <t t-esc="this.env.services.pos.get_order().partner.name"/></h6>
+            </t>
+
+        </xpath>
+    </t>
+</templates>
