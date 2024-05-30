@@ -1,0 +1,57 @@
+<thrive>
+	<data noupdate="1">
+		<!-- Email Template -->
+		<record id="document_expiry_email_reminder"
+			model="mail.template">
+			<field name="name">Employee Documents Expiry Reminder</field>
+			<field name="model_id" ref="model_employee_documents" />
+			<field name="subject">Employee Documents Expiry Reminder</field>
+			<field name="email_from"></field>
+			<field name="email_to"></field>
+			<field name="auto_delete" eval="True" />
+			<field name="body_html" type="html">
+
+				<div style="margin: 0px; padding: 0px;">
+					<p style="margin: 0px; padding: 0px; font-size: 12px;">
+					</p>
+						<p>Dear Team,</p>
+                                <p>Please find details of documents that will be expiring within a one-month period.</p>
+							
+						   <t t-set="types_dict" t-value="object.get_documents_data()"/>
+						   
+						   <t t-foreach="types_dict['types']" t-as="type">
+						    <br/>
+						   <br/>
+						   <t t-esc="type['type']" />
+						   <br/>
+						   <br/>
+							   <table border="1">
+									<thead>
+										<tr>
+											<th>Employee Name</th>
+											<th>Document Number</th>
+											<th>Expiry Date</th>
+										</tr>
+									</thead>
+									<tbody>
+										<t t-foreach="type['employees']" t-as="employee">
+											<tr>
+												<td>
+													<t t-esc="employee['name']" />
+												</td>
+												<td>
+													<t t-esc="employee['doc_number']" />
+												</td>
+												<td>
+													<t t-esc="employee['expiry_date']" />
+												</td>
+											</tr>
+										</t>
+									</tbody>
+								</table>
+						   </t>
+				</div>
+			</field>
+		</record>
+	</data>
+</thrive>

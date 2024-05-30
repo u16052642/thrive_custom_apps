@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thrive>
+	<record id="zb_employee_documents_form_view" model="ir.ui.view">
+		<field name="name">zb.employee.documents.form</field>
+		<field name="model">employee.documents</field>
+		<field name="arch" type="xml">
+			<form>
+				<sheet>
+					<group>
+						<group>
+							<field name="employee_id" options="{'no_create': True,'no_create_edit': True}" required="1"/>
+							<field name="type_id" options="{'no_create': True,'no_create_edit': True}"/>
+							<field name="name" />
+							<field name="desciption" />
+						</group>
+						<group>
+							<field name="doc_number"/>
+							<field name="expiry" required="1"/>
+							<field name="file_name" invisible="1"/>
+							<field name="attachment" filename="file_name"  required="1"/>
+						</group>
+					</group>
+				</sheet>
+				<div class="oe_chatter">
+                        <field name="message_ids"/>
+                    </div>
+			</form>
+		</field>
+	</record>
+	
+	<record id="zb_employee_documents_tree_view" model="ir.ui.view">
+		<field name="name">zb.employee.documents.tree</field>
+		<field name="model">employee.documents</field>
+		<field name="arch" type="xml">
+			<tree>
+					<field name="employee_id"/>
+					<field name="type_id"/>
+					<field name="doc_number"/>
+					<field name="name"/>
+					<field name="desciption"/>
+					<field name="expiry"/>
+					<field name="file_name" column_invisible="1"/>
+					<field name="attachment" filename="file_name" widget="binary"/>
+			</tree>
+		</field>
+	</record>
+	
+	  <record id="zb_employee_documents_search_view" model="ir.ui.view">
+        <field name="name">zb.employee.documents.search</field>
+        <field name="model">employee.documents</field>
+        <field name="arch" type="xml">
+              <search>
+              	<field name="employee_id" />
+				<field name="type_id" />
+				<field name="doc_number"/>
+				<field name="name" />
+				<field name="expiry" />
+				<filter string="Expired" name="expired" separator="1" domain="[('expiry', '&lt;=', context_today().strftime('%Y-%m-%d'))]"/>
+				<filter string="Expire in 1 Week" name="expire_in_1_week"  domain="[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')),('expiry', '&lt;=', ((context_today()+relativedelta(weeks=1, weekday=-1)).strftime('%Y-%m-%d')))]"/>
+				<filter string="Expire in 1 Month" name="expire_in_1_month" domain="[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')),('expiry', '&lt;=', ((context_today()+relativedelta(months=1, day=1, days=-1)).strftime('%Y-%m-%d')))]"/>
+				<filter string="Expire in 3 Months" name="expire_in_3_months" domain="[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')),('expiry', '&lt;=', ((context_today()+relativedelta(months=3, day=1, days=-1)).strftime('%Y-%m-%d')))]"/>
+	        	<filter string="Expire in 6 Months" name="expire_in_6_months" domain="[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')),('expiry', '&lt;=', ((context_today()+relativedelta(months=6, day=1, days=-1)).strftime('%Y-%m-%d')))]"/>
+	       		<filter string="Employee" name="group_by_employee" context="{'group_by' : 'employee_id'}" />
+	       		<filter string="Document Type" name="group_by_type" context="{'group_by' : 'type_id'}" />
+	       		<filter string="Name" name="group_by_name" context="{'group_by' : 'name'}" />
+	       		<filter string="Expiry" name="group_by_expiry" context="{'group_by' : 'expiry'}" />
+	        </search>
+        </field>
+    </record>
+    
+   <record id="zb_employee_documents_kanban_view" model="ir.ui.view">
+    <field name="name">zb.employee.documents.kanban</field>
+    <field name="model">employee.documents</field>
+    <field name="arch" type="xml">
+        <kanban>
+            <templates>
+                <t t-name="kanban-box">
+                    <div class="oe_kanban_global_click">
+                        <div class="oe_kanban_details">
+                            <strong>Name:</strong> <field name="name"/><br/>
+                            <strong>Employee:</strong> <field name="employee_id"/><br/>
+                            <strong>Type:</strong> <field name="type_id"/><br/>
+                            <strong>Doc No:</strong> <field name="doc_number"/><br/>
+                            <strong>Expiry:</strong> <field name="expiry"/><br/>
+                            <strong>File Name:</strong> <field name="file_name"/><br/>
+                        </div>
+                    </div>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+</record>
+	
+	<record id="zb_employee_document_type_form_view" model="ir.ui.view">
+		<field name="name">zb.employee.document.type.form</field>
+		<field name="model">employee.document.type</field>
+		<field name="arch" type="xml">
+			<form>
+				<sheet>
+					<group>
+							<field name="name" />
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+	
+	<record id="zb_employee_document_type_tree_view" model="ir.ui.view">
+		<field name="name">zb.employee.document.type.tree</field>
+		<field name="model">employee.document.type</field>
+		<field name="arch" type="xml">
+			<tree>
+					<field name="name"/>
+			</tree>
+		</field>
+	</record>
+
+	<record id="action_employee_documents" model="ir.actions.act_window">
+		<field name="name">Employee Documents</field>
+		<field name="res_model">employee.documents</field>
+		<field name="view_mode">tree,form,kanban</field>
+		<field name="search_view_id" ref="zb_employee_documents_search_view"/>
+	</record>
+	
+	<record id="action_documents_expired" model="ir.actions.act_window">
+		<field name="name">Expired</field>
+		<field name="res_model">employee.documents</field>
+		<field name="view_mode">kanban,form</field>
+		<field name="search_view_id" ref="zb_employee_documents_search_view"/>
+		<field name="domain">[('expiry', '&lt;=', context_today().strftime('%Y-%m-%d'))]</field>
+	</record>
+	
+	<record id="action_documents_expire_in_1_week" model="ir.actions.act_window">
+		<field name="name">Expire in 1 Week</field>
+		<field name="res_model">employee.documents</field>
+		<field name="view_mode">kanban,form</field>
+		<field name="search_view_id" ref="zb_employee_documents_search_view"/>
+		<field name="domain">[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')),('expiry', '&lt;=', ((context_today()+relativedelta(weeks=1)).strftime('%Y-%m-%d')))]</field>
+	</record>
+	
+	<record id="action_documents_expire_in_1_month" model="ir.actions.act_window">
+		<field name="name">Expire in 1 Month</field>
+		<field name="res_model">employee.documents</field>
+		<field name="view_mode">kanban,form</field>
+		<field name="search_view_id" ref="zb_employee_documents_search_view"/>
+		<field name="domain">[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')), ('expiry', '&lt;=', (context_today() + relativedelta( months=1)).strftime('%Y-%m-%d'))]</field>
+	</record>
+	
+	<record id="action_documents_expire_in_3_months" model="ir.actions.act_window">
+		<field name="name">Expire in 3 Months</field>
+		<field name="res_model">employee.documents</field>
+		<field name="view_mode">kanban,form</field>
+		<field name="search_view_id" ref="zb_employee_documents_search_view"/>
+		<field name="domain">[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')), ('expiry', '&lt;=', (context_today() + relativedelta( months=3)).strftime('%Y-%m-%d'))]</field>
+	</record>
+	
+		<record id="action_documents_expire_in_6_months" model="ir.actions.act_window">
+		<field name="name">Expire in 6 Months</field>
+		<field name="res_model">employee.documents</field>
+		<field name="view_mode">kanban,form</field>
+		<field name="search_view_id" ref="zb_employee_documents_search_view"/>
+		<field name="domain">[('expiry', '&gt;=', context_today().strftime('%Y-%m-%d')), ('expiry', '&lt;=', (context_today() + relativedelta( months=6)).strftime('%Y-%m-%d'))]</field>
+	</record>
+	
+	<record id="action_employee_document_type" model="ir.actions.act_window">
+		<field name="name">Employee Document Type</field>
+		<field name="res_model">employee.document.type</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+	
+	<menuitem
+        id="menu_employee_documents"
+        name="Employee Documents"
+        action="action_employee_documents"
+        parent="hr.menu_hr_employee_payroll"
+        sequence="6"
+    />
+    
+    <menuitem
+		id="menu_employee_document_type"
+		name="Employee Document Type"
+		action="action_employee_document_type"
+		parent="hr.menu_config_employee"
+		sequence="11"
+		/>
+		
+    <menuitem
+		id="menu_document_expiry_dashboard"
+		name="Document Expiry Dashboard"
+		parent="hr.menu_hr_root"
+		sequence="10"
+		/>
+		
+	  <menuitem
+		id="menu_document_expired"
+		name="Expired"
+		action="action_documents_expired"
+		parent="menu_document_expiry_dashboard"
+		sequence="1"
+		/>
+		
+	 <menuitem
+		id="menu_document_expire_in_1_week"
+		name="Expire in 1 Week"
+		action="action_documents_expire_in_1_week"
+		parent="menu_document_expiry_dashboard"
+		sequence="2"
+		/>
+		
+	 <menuitem
+		id="menu_document_expire_in_1_month"
+		name="Expire in 1 Month"
+		action="action_documents_expire_in_1_month"
+		parent="menu_document_expiry_dashboard"
+		sequence="3"
+		/>
+		
+	 <menuitem
+		id="menu_document_expire_in_3_months"
+		name="Expire in 3 Months"
+		action="action_documents_expire_in_3_months"
+		parent="menu_document_expiry_dashboard"
+		sequence="4"
+		/>
+		
+	 <menuitem
+		id="menu_document_expire_in_6_months"
+		name="Expire in 6 Months"
+		action="action_documents_expire_in_6_months"
+		parent="menu_document_expiry_dashboard"
+		sequence="5"
+		/>
+	
+</thrive>
