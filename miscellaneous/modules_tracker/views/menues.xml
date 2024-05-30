@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<thrive>
+    <data>
+        <menuitem id="menu_modules_tracker_root"
+                  name="ModulesTracker"
+                  sequence="20"
+                  action="action_modules_tracker_statistics"
+                  web_icon="modules_tracker,static/description/icon.png"/>
+        <menuitem id="menu_modules_tracker_operations" parent="menu_modules_tracker_root" name="Operations" action="action_modules_tracker"/>
+        <menuitem id="menu_modules_tracker_modules" parent="menu_modules_tracker_operations" name="Modules"  action="action_modules_tracker"/>
+        <menuitem id="menu_modules_tracker_thrive_versions" parent="menu_modules_tracker_operations" name="Odoo Versions"  action="action_modules_tracker_thrive_versions"/>
+        <menuitem id="menu_modules_tracker_reporting" parent="menu_modules_tracker_root" name="Reporting" action="action_modules_tracker_reporting"/>
+        <menuitem id="menu_modules_tracker_configuration" parent="menu_modules_tracker_root" name="Configuration" action="action_modules_tracker_configuration"/>
+    </data>
+</thrive>

@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_modules_tracker,modules_tracker,model_modules_tracker_modules,base.group_user,1,1,1,1
+access_thrive_versions,thrive_versions,model_modules_tracker_thrive_versions,base.group_user,1,1,1,1
+access_modules_dependents,modules_dependents,model_modules_tracker_modules_dependents,base.group_user,1,1,1,1
+access_python_packages_dependents,python_packages_dependents,model_modules_tracker_python_packages_dependents,base.group_user,1,1,1,1
+access_modules_tracker_reporting,modules_tracker_reporting,model_modules_tracker_reporting,base.group_user,0,0,0,0
+access_modules_tracker_configuration,modules_tracker_configuration,model_modules_tracker_config,base.group_user,0,0,0,0
+access_modules_tracker_statistics,modules_tracker_statistics,model_modules_tracker_statistics,base.group_user,1,1,1,0

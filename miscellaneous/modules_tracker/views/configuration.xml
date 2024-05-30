@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<thrive>
+    <data>
+        <record id="action_modules_tracker_configuration" model="ir.actions.act_window">
+            <field name="name">Configuration</field>
+            <field name="res_model">modules.tracker.config</field>
+            <field name="view_mode">form</field>
+        </record>
+    </data>
+</thrive>

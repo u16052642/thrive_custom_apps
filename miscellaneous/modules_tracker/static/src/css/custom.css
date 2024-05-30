@@ -1,0 +1,7 @@
+.o_list_view .o_column_label {
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    white-space: nowrap;
+    width: auto;
+    padding: 0;
+}

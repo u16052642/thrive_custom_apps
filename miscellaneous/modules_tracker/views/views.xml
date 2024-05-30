@@ -1,0 +1,102 @@
+<thrive>
+    <data>
+        <record id="view_modules_kanban" model="ir.ui.view">
+            <field name="name">modules.tracker.modules.kanban</field>
+            <field name="model">modules.tracker.modules</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="id"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click">
+                                <div class="o_kanban_image">
+                                    <img alt="Avatar" t-att-src="kanban_image('modules.tracker.modules', 'image', record.id.raw_value)"/>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <ul>
+                                        <div class="oe_title">
+                                            <h2>
+                                                <field name="name"/>
+                                            </h2>
+                                        </div>
+                                        <li><span>Version: </span><field name="version"/></li>
+                                        <li><span>Created At: </span><field name="created_at"/></li>
+                                        <li><span>Created By: </span><field name="created_by"/></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+        <record id="view_modules_form" model="ir.ui.view">
+            <field name="name">Modules</field>
+            <field name="model">modules.tracker.modules</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="module_state" widget="statusbar" nolabel="1" options="{'clickable': '1'}"/>
+                    </header>
+                    <sheet>
+                        <sheet>
+                            <group>
+                                <group string="Basic Information">
+                                    <field name="name"/>
+                                    <field name="created_at"/>
+                                    <field name="created_by"/>
+                                    <field name="tested_by"/>
+                                    <field name="version"/>
+                                </group>
+                                <group>
+                                    <field name="image" widget="image" class="oe_avatar"/>
+                                </group>
+                                <group string="Access">
+                                    <field name="GH_link" widget="url"/>
+                                    <field name="thrive_store_link" widget="url"/>
+                                </group>
+                            </group>
+                            <group>
+                                <field name="description"/>
+                            </group>
+                        </sheet>
+                        <sheet>
+                            <group string="Dependents">
+                                <field name="multi_thrive_versions" widget="many2many_tags"/>
+                                <field name="multi_modules_dependents"/>
+                                <field name="multi_packages_dependents"/>
+                            </group>
+                        </sheet>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_modules_tree" model="ir.ui.view">
+            <field name="name">Modules</field>
+            <field name="model">modules.tracker.modules</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="version"/>
+                    <field name="created_at" widget="date"/>
+                    <field name="created_by"/>
+                    <field name="tested_by"/>
+                    <field name="multi_thrive_versions" widget="many2many_tags"/>
+                    <field name="multi_modules_dependents" optional="hide"/>
+                    <field name="multi_packages_dependents" optional="hide"/>
+                    <field name="GH_link" widget="url" optional="hide"/>
+                    <field name="thrive_store_link" widget="url" optional="hide"/>
+
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_modules_tracker" model="ir.actions.act_window">
+            <field name="name">Modules</field>
+            <field name="res_model">modules.tracker.modules</field>
+            <field name="view_mode">tree,kanban,form</field>
+        </record>
+    </data>
+</thrive>

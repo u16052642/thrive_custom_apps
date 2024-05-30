@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<thrive>
+    <data>
+        <record id="view_python_packages_dependents_form" model="ir.ui.view">
+            <field name="name">Python Packages Dependents</field>
+            <field name="model">modules.tracker.python.packages.dependents</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="package_name"/>
+                        <field name="package_version"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        <record id="view_python_packages_dependents_list" model="ir.ui.view">
+            <field name="name">Python Packages Dependents</field>
+            <field name="model">modules.tracker.python.packages.dependents</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="package_name"/>
+                    <field name="package_version"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</thrive>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<thrive>
+    <record model="modules.tracker.thrive.versions" id="modules_tracker_thrive_versions_v12_0">
+        <field name="thrive_version">V12.0</field>
+    </record>
+    <record model="modules.tracker.thrive.versions" id="modules_tracker_thrive_versions_v13_0">
+        <field name="thrive_version">V13.0</field>
+    </record>
+    <record model="modules.tracker.thrive.versions" id="modules_tracker_thrive_versions_v14_0">
+        <field name="thrive_version">V14.0</field>
+    </record>
+    <record model="modules.tracker.thrive.versions" id="modules_tracker_thrive_versions_v15_0">
+        <field name="thrive_version">V15.0</field>
+    </record>
+    <record model="modules.tracker.thrive.versions" id="modules_tracker_thrive_versions_v16_0">
+        <field name="thrive_version">V16.0</field>
+    </record>
+    <record model="modules.tracker.thrive.versions" id="modules_tracker_thrive_versions_v17_0">
+        <field name="thrive_version">V17.0</field>
+    </record>
+</thrive>

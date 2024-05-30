@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<thrive>
+    <data>
+        <record id="view_modules_dependents_form" model="ir.ui.view">
+            <field name="name">Modules Dependents</field>
+            <field name="model">modules.tracker.modules.dependents</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="module_name"/>
+                        <field name="module_version"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_modules_dependents_list" model="ir.ui.view">
+            <field name="name">Modules Dependents</field>
+            <field name="model">modules.tracker.modules.dependents</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="module_name"/>
+                    <field name="module_version"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</thrive>
