@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thrive>
+    <record id="res_config_settings_inactive_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.inactive</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@name='users_setting_container']" position="inside">
+                <setting string="Inactive Users">
+                    <div class="content-group">
+                        <div class="row mt16">
+                            <label string="Inactive Days" for="inactive_days" class="col-lg-3"/>
+                            <field name="inactive_days"/>
+                            <div class="text-muted" id="msg_module_user_inactive">
+                                Inactive Users, who are all not logged in ERP
+                            </div>
+                        </div>
+                    </div>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+</thrive>
