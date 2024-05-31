@@ -1,0 +1,14 @@
+pandas
+cryptography
+dropbox
+pyncclient
+boto3
+nextcloud-api-wrapper
+paramiko
+woocommerce
+gdown
+psutil
+cachetools
+requests
+twilio
+xlwt
