@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author:  Mruthul Raj (thrive@cybrosys.com)
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author:  Mruthul Raj (info@thrivebureau.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -27,10 +27,10 @@
     'description': """CRM dashboard module brings a multipurpose graphical
      dashboard for CRM module and making the relationship management 
      better and easier""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
     'depends': ['crm', 'sale_management'],
     'data': ['views/crm_team_views.xml',
              'views/res_users_views.xml',

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Thrive Bureau Solutions(<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -25,10 +25,10 @@
     "category": 'Extra Tools',
     'summary': """Duplicate Contact Details Alert""",
     'description': """Duplicate Contact Details Alert""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['base', 'contacts'],
     'data': [
         'views/res_config_settings_views.xml',

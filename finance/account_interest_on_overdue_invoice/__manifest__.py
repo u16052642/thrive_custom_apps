@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Ayana KP(thrive@cybrosys.com)
+#    Thrive Bureaulogies Pvt. Ltd.
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Ayana KP(info@thrivebureau.com)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -25,10 +25,10 @@
     'summary': """This module helps to manage Interest on Overdue Invoices.""",
     'description': """This module helps to calculate daily, weekly or monthly 
      Interest for Overdue Invoices based on payment term configuration. """,
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['sale', 'account'],
     'data': [
         'views/account_payment_term_views.xml',

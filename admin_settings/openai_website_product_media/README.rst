@@ -17,20 +17,20 @@ Affero General Public License v3.0 (AGPL v3)
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `Thrive Bureau Solutions <https://thrivebureau.com/>`__
 
 Credits
 -------
 * Developer:
             (V16) Ranjith R,
             (V17) Farhana Jahan PT,
-  Contact: thrive@cybrosys.com
+  Contact: info@thrivebureau.com
 
 
 Contacts
 --------
-* Mail Contact : thrive@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@thrivebureau.com
+* Website : https://thrivebureau.com
 
 Bug Tracker
 -----------
@@ -38,11 +38,11 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
-This module is maintained by Cybrosys Technologies.
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
+This module is maintained by Thrive Bureaulogies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.thrivebureau.com
 
 Further information
 ===================

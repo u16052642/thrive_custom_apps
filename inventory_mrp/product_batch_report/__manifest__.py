@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Bhagyadev KP (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Bhagyadev KP (info@thrivebureau.com)
 #
 #    This program is under the terms of thrive Proprietary License v1.0 (OPL-1)
 #    It is forbidden to publish, distribute, sublicense, or sell copies of the
@@ -28,10 +28,10 @@
     'description': """This module helps you to print a report about tracking
      products (lot/serial) based on their expiry date. You can filter your
      report based on different criteria.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['stock'],
     'data': [
         'security/ir.model.access.csv',

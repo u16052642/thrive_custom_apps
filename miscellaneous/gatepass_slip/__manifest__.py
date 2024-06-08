@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright(C) 2024-TODAY Cybrosys Technologies (<https://www.cybrosys.com>).
-#    Author: Jumana Haseen (<https://www.cybrosys.com>)
+#    Thrive Bureaulogies Pvt. Ltd.
+#    Copyright(C) 2024-TODAY Thrive Bureaulogies (<https://www.thrivebureau.com>).
+#    Author: Jumana Haseen (<https://www.thrivebureau.com>)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Lesser General Public License(LGPLv3) as
@@ -28,10 +28,10 @@
      for users, which can be used as a pass to let a vehicle 
      into a facility. The slips allow for the addition of 
      driver and vehicle-related information.""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'http://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': 'http://www.thrivebureau.com',
     'depends': ['base', 'stock'],
     'data': [
         'views/stock_picking_views.xml',

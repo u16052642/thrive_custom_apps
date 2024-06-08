@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Mohammed Dilshad Tk (thrive@cybrosys.com)
+#    Thrive Bureaulogies Pvt. Ltd.
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Mohammed Dilshad Tk (info@thrivebureau.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Affero General Public License (AGPL) as
@@ -27,10 +27,10 @@
     'description': 'This module to helps your customers to do the online '
                    'booking for using the service. This module integrates with '
                    'other thrive modules like accounting and website.',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
     'depends': ['account', 'base_setup', 'mail', 'website', 'contacts'],
     'data': [
         'security/salon_management_groups.xml',

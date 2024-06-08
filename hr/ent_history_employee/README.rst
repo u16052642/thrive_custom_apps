@@ -33,21 +33,21 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Credits
 =======
-* Cybrosys Techno Solutions <https://www.cybrosys.com>
+* Thrive Bureau Solutions <https://www.thrivebureau.com>
 
 Author
 ------
-Developer: Binu M Baiju @ cybrosys, thrive@cybrosys.com
-           V13.0  Kavya Raveendran, thrive@cybrosys.com
-           V14.0  Jibin James, thrive@cybrosys.com
-           V15.0  Mily, thrive@cybrosys.com
-           V15.0  Archana V, thrive@cybrosys.com
-           V17.0 Vishnu P, thrive@cybrosys.com
+Developer: Binu M Baiju @ cybrosys, info@thrivebureau.com
+           V13.0  Kavya Raveendran, info@thrivebureau.com
+           V14.0  Jibin James, info@thrivebureau.com
+           V15.0  Mily, info@thrivebureau.com
+           V15.0  Archana V, info@thrivebureau.com
+           V17.0 Vishnu P, info@thrivebureau.com
 
 Maintainer
 ----------
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
-This module is maintained by Cybrosys Technologies.
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
+This module is maintained by Thrive Bureaulogies.
 
-For support and more information, please visit https://www.cybrosys.com.
+For support and more information, please visit https://www.thrivebureau.com.

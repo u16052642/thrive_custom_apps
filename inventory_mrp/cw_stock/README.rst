@@ -18,18 +18,18 @@ General Public License, Version 3 (LGPL v3).
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `Thrive Bureau Solutions <https://thrivebureau.com/>`__
 
 Credits
 -------
 * Developer:(V16) Swaroop N P
             (V17) Gayathri V
 
-Contact : thrive@cybrosys.com
+Contact : info@thrivebureau.com
 
 Contacts
 --------
-* Mail Contact : thrive@cybrosys.com
+* Mail Contact : info@thrivebureau.com
 
 Bug Tracker
 -----------
@@ -37,9 +37,9 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-This module is maintained by Cybrosys Technologies.
+This module is maintained by Thrive Bureaulogies.
 
-For support and more information, please visit https://www.cybrosys.com
+For support and more information, please visit https://www.thrivebureau.com
 
 Further information
 ===================

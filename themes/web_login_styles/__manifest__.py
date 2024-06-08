@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Mohammed Dilshad Tk (<https://www.cybrosys.com>)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Mohammed Dilshad Tk (<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -26,10 +26,10 @@
     'summary': 'Customize The Login Page With Different Styles',
     'description': 'The Module helps to customize login page with different '
                    'styles',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['base','base_setup','web'],
     'data': [
         'views/res_config_settings_views.xml',

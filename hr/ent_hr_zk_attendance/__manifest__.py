@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Vyshnav AR (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Vyshnav AR (info@thrivebureau.com)
 #
 #   This program is under the terms of the Odoo Proprietary License v1.0 (OPL-1)
 #    It is forbidden to publish, distribute, sublicense, or sell copies of the
@@ -27,10 +27,10 @@
     'summary': 'Integrating Biometric Device With HR Attendance (Face + Thumb)',
     'description': 'This module integrates Odoo with the biometric device'
                    '(Model: ZKteco uFace 202)',
-    'author': 'Cybrosys Techno Solutions, Mostafa Shokiel,Open HRMS',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'Thrive Bureau Solutions, Mostafa Shokiel,Open HRMS',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
     'depends': ['base_setup', 'hr_attendance'],
     'data': [
         'data/ir_cron_data.xml',

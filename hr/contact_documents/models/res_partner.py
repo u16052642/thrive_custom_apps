@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Gayathri V (thrive@cybrosys.com)
+#    Thrive Bureaulogies Pvt. Ltd.
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Gayathri V (info@thrivebureau.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU LESSER GENERAL PUBLIC LICENSE (LGPL) as

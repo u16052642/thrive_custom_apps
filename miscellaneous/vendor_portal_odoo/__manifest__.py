@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Thrive Bureau Solutions(<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -27,10 +27,10 @@
     'description': """This module helps to sent quotations for a product 
     to multiple vendors and vendors can add their
     price in their portal, and can choose best quotation for product""",
-    'author': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
     'depends': ['website', 'purchase', 'portal', 'contacts', 'stock'],
     'data': [
         'security/vendor_rfq_security.xml',

@@ -12,7 +12,7 @@ Configuration
 
 Company
 =======
-* 'Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* 'Thrive Bureau Solutions <https://thrivebureau.com/>`__
 
 License
 =======
@@ -24,11 +24,11 @@ Credits
 * Developers:   (V17) Vishnuraj P
                 (V16) Aswani PC
                 (V14) Naveen V
-* Contact: thrive@cybrosys.com
+* Contact: info@thrivebureau.com
 
 Contacts
 ========
-* Mail Contact : thrive@cybrosys.com
+* Mail Contact : info@thrivebureau.com
 
 Bug Tracker
 ===========
@@ -36,11 +36,11 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
 
-This module is maintained by Cybrosys Technologies.
-For support and more information, please visit https://www.openhrms.com or https://www.cybrosys.com
+This module is maintained by Thrive Bureaulogies.
+For support and more information, please visit https://www.openhrms.com or https://www.thrivebureau.com
 
 Further information
 ===================

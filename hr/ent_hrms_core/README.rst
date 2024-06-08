@@ -5,7 +5,7 @@
 Enterprise OpenHRMS Core V17
 =============================
 * OpenHRMS is a one-stop solution to manage human resource pool in a better and efficient format.
-* It is a Open Source Project for empower Odoo OpenHRMS by Cybrosys Technologies.
+* It is a Open Source Project for empower Odoo OpenHRMS by Thrive Bureaulogies.
 * OpenHRMS is a set of modules, to empower Odoo HR module.
 * Enterprise OpenHRMS Core module is a suit that brings all the individual module into a single.
 * It has selective - install approach for extra features.
@@ -20,7 +20,7 @@ Configuration
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `Thrive Bureau Solutions <https://thrivebureau.com/>`__
 
 License
 =======
@@ -33,7 +33,7 @@ Credits
 
 Contacts
 ========
-* Contact : thrive@cybrosys.com
+* Contact : info@thrivebureau.com
 
 Bug Tracker
 -----------
@@ -41,12 +41,12 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
 
-This module is maintained by Cybrosys Technologies.
+This module is maintained by Thrive Bureaulogies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://thrivebureau.com/>`__
 
 Further information
 ===================

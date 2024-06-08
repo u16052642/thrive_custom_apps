@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Jumana Haseen (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Jumana Haseen (info@thrivebureau.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -25,10 +25,10 @@
     'category': 'Productivity',
     'summary': """All PDF reports of thrive with Signature""",
     'description': """Allows to print the Signature in all PDF reports easily""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
     'depends': ['base', 'web', 'hr'],
     'data': [
         'views/res_company_views.xml',

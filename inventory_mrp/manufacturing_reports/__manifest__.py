@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Jumana Haseen (<https://www.cybrosys.com>)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Jumana Haseen (<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -26,10 +26,10 @@
     'summary': 'PDF & XLS Reports For Manufacturing Module',
     'description': 'PDF & XLS reports for manufacturing module with '
                    'advanced filters.',
-    'author': 'Cybrosys Techno Solutions',
-    'website': "http://www.cybrosys.com",
+    'author': 'Thrive Bureau Solutions',
+    'website': "http://www.thrivebureau.com",
     'images': ['static/description/banner.png'],
-    'company': 'Cybrosys Techno Solutions',
+    'company': 'Thrive Bureau Solutions',
     'depends': ['mrp'],
     'data': [
         'security/ir.model.access.csv',

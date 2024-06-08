@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author:Anjhana A K(<https://www.cybrosys.com>)
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author:Anjhana A K(<https://www.thrivebureau.com>)
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
 #
@@ -24,10 +24,10 @@
     'category': 'Extra Tools',
     'summary': """thrive17 PSQL Query Execute, Run the PSQL query in the thrive user interface.""",
     'description': """PSQL Query Execute, SQL, PSQL, psql, query, thrive query, query run, database,""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',

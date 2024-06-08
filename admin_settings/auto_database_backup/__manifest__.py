@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys Techno Solutions (thrive@cybrosys.com)
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Thrive Bureau Solutions (info@thrivebureau.com)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -29,10 +29,10 @@
                'google drive, dropbox, nextcloud, amazon S3, onedrive or '
                'remote server, thrive17, Backup, Database, thrive Apps',
     'description': 'thrive Database Backup, Database Backup, Automatic Backup, automatic database backup, thrive17, thrive apps,backup, automatic backup,thrive17 automatic database backup,backup google drive,backup dropbox, backup nextcloud, backup amazon S3, backup onedrive',
-    'author': "Cybrosys Techno Solutions",
-    'maintainer': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': "Thrive Bureau Solutions",
+    'maintainer': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
     'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',

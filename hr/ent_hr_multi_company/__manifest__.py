@@ -3,8 +3,8 @@
 #
 #    A part of OpenHRMS Project <https://www.openhrms.com>
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Cybrosys Techno Solutions (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Thrive Bureau Solutions (info@thrivebureau.com)
 #
 #    This program is under the terms of the Odoo Proprietary License v1.0
 #    (OPL-1)
@@ -29,10 +29,10 @@
      can easily handle multi company process separately. We can activate
      multi company feature in general settings as usual. This will
      automatically add company field in every HR related records""",
-    'author': "Cybrosys Techno Solutions,Open HRMS",
-    'company': 'Cybrosys Techno Solutions',
+    'author': "Thrive Bureau Solutions,Open HRMS",
+    'company': 'Thrive Bureau Solutions',
     'website': "https://www.openhrms.com",
-    'maintainer': 'Cybrosys Techno Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
     'depends': ['base',
                 'hr',
                 'hr_contract',

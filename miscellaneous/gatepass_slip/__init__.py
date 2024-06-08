@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright C) 2024-TODAY Cybrosys Technologies (<https://www.cybrosys.com>).
-#    Author: Jumana Haseen (<https://www.cybrosys.com>)
+#    Thrive Bureaulogies Pvt. Ltd.
+#    Copyright C) 2024-TODAY Thrive Bureaulogies (<https://www.thrivebureau.com>).
+#    Author: Jumana Haseen (<https://www.thrivebureau.com>)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Lesser General Public License(LGPLv3) as

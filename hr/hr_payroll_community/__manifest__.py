@@ -2,10 +2,10 @@
 #############################################################################
 #    A part of Open HRMS Project <https://www.openhrms.com>
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Thrive Bureau Solutions(<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -27,9 +27,9 @@
     'summary': 'thrive 17 HR Payroll, payroll, thrive17 Payroll, thrive Payroll, Payroll, thrive17 Payslips, Employee Payroll, HR Payroll,thrive17, thrive17 HR, thrive hr,thrive17, Accounting,thrive Apps',
     'description': "thrive17, thrive 17 HR Payroll, thrive payroll, thrive17 payroll, payroll community,thrive 17, payroll,thrive 17 Payroll for Community version where can manage "
                    "Employee Payroll Records",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
     'website': 'https://www.openhrms.com',
     'depends': ['hr_contract', 'hr_holidays'],
     'data': [

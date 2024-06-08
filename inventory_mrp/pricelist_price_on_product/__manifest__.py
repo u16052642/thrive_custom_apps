@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: MOHAMMED DILSHAD TK (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: MOHAMMED DILSHAD TK (info@thrivebureau.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -29,10 +29,10 @@
                    " the price of the products according to "
                    "the pricelists in Product Form. Also it allows you to "
                    "hide the pricelists price from the product.",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['sale_management'],
     'data': [
         'security/ir.model.access.csv',

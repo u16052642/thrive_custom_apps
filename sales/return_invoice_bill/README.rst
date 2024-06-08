@@ -8,7 +8,7 @@ This module allow to return the invoice  or bill while picking the product in Od
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `Thrive Bureau Solutions <https://thrivebureau.com/>`__
 
 Configuration
 =============
@@ -28,12 +28,12 @@ Credits
 -------
 * Developer: (V17) Kailas Krishna,
              (V16) Dhanya Babu,
-  Contact: thrive@cybrosys.com
+  Contact: info@thrivebureau.com
 
 Contacts
 --------
-* Mail Contact : thrive@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@thrivebureau.com
+* Website : https://thrivebureau.com
 
 Bug Tracker
 -----------
@@ -41,10 +41,10 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
-This module is maintained by Cybrosys Technologies.
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
+This module is maintained by Thrive Bureaulogies.
+For support and more information, please visit `Our Website <https://thrivebureau.com/>`__
 
 Further information
 ===================

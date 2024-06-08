@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Bhagyadev KP (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Bhagyadev KP (info@thrivebureau.com)
 #
 #    This program is under the terms of thrive Proprietary License v1.0 (OPL-1)
 #    It is forbidden to publish, distribute, sublicense, or sell copies of the

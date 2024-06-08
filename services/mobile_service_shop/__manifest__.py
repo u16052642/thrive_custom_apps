@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Vishnu KP S (thrive@cybrosys.com)
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Vishnu KP S (info@thrivebureau.com)
 #
 #    This program is under the terms of the thrive Proprietary License v1.0 (OPL-1)
 #    It is forbidden to publish, distribute, sublicense, or sell copies of the
@@ -24,9 +24,9 @@
     'version': '17.0.1.0.0',
     'summary': 'Module for managing mobile service shop daily activities.',
     'category': 'Industries',
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['stock_account', 'mail', 'product', 'account'],
     'data': ['security/mobile_service_shop_security.xml',
              'security/ir.model.access.csv',

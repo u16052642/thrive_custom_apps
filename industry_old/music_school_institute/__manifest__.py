@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Vishnu K P (<https://www.cybrosys.com>)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Vishnu K P (<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -29,10 +29,10 @@
     Odoo module. Manage teachers and students, track attendance, handle fees,
     and plan events effortlessly. Stay organized and focus on nurturing 
     musical talent.""",
-    "author": "Cybrosys Techno Solutions",
-    "company": "Cybrosys Techno Solutions",
-    "maintainer": "Cybrosys Techno Solutions",
-    "website": "https://www.cybrosys.com",
+    "author": "Thrive Bureau Solutions",
+    "company": "Thrive Bureau Solutions",
+    "maintainer": "Thrive Bureau Solutions",
+    "website": "https://www.thrivebureau.com",
     "depends": ["stock", "sale", "calendar", "event", "hr"],
     "data": [
         "security/music_school_institute_groups.xml",

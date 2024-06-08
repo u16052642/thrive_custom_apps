@@ -29,7 +29,7 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Credits
 =======
-* Cybrosys Techno Solutions <https://www.cybrosys.com>
+* Thrive Bureau Solutions <https://www.thrivebureau.com>
 
 Author
 ------
@@ -39,11 +39,11 @@ Developer: (V13)Naushid Khan
            (V15) Athul k
            (V16) Shijilal s
            (V17) Gayathri V
-Contact : thrive@cybrosys.com
+Contact : info@thrivebureau.com
 
 Contacts
 --------
-* Contact : thrive@cybrosys.com
+* Contact : info@thrivebureau.com
 
 Bug Tracker
 -----------
@@ -51,12 +51,12 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
 
-This module is maintained by Cybrosys Technologies.
+This module is maintained by Thrive Bureaulogies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://thrivebureau.com/>`__
 
 Further information
 ===================

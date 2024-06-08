@@ -18,7 +18,7 @@ General Public License, Version 3 (AGPL v3).
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `Thrive Bureau Solutions <https://thrivebureau.com/>`__
 
 Credits
 -------
@@ -27,12 +27,12 @@ Credits
                 (V14) Minhaj T,
                 (V16) Athira PS,
                 (V17) Ayana kp
-Contact : thrive@cybrosys.com
+Contact : info@thrivebureau.com
 
 Contacts
 --------
-* Mail Contact : thrive@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@thrivebureau.com
+* Website : https://thrivebureau.com
 
 Bug Tracker
 -----------
@@ -40,11 +40,11 @@ Bugs are tracked on GitHub Issues. In case of trouble, please check there if you
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
 
-This module is maintained by Cybrosys Technologies.
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+This module is maintained by Thrive Bureaulogies.
+For support and more information, please visit `Our Website <https://thrivebureau.com/>`__
 
 Further information
 ===================

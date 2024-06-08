@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2022-TODAY Cybrosys Technologies (<https://www.cybrosys.com>)
-#    Author: Subina P (thrive@cybrosys.com)
+#    Thrive Bureaulogies Pvt. Ltd.
+#    Copyright (C) 2022-TODAY Thrive Bureaulogies (<https://www.thrivebureau.com>)
+#    Author: Subina P (info@thrivebureau.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Affero General Public License (AGPL) as

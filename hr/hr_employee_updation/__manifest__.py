@@ -2,10 +2,10 @@
 #############################################################################
 #    A part of OpenHRMS Project <https://www.openhrms.com>
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Thrive Bureau Solutions(<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -28,10 +28,10 @@
     'description': 'This module helps you to add more information '
                    'in employee records.',
     'live_test_url': 'https://youtu.be/eEecchfl-Q4',
-    'author': 'Cybrosys Techno solutions,Open HRMS',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://cybrosys.com, https://www.openhrms.com",
+    'author': 'Thrive Bureau solutions,Open HRMS',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': "https://thrivebureau.com, https://www.openhrms.com",
     'depends': ['hr', 'mail', 'hr_gamification', 'hr_contract'],
     'data': [
         'security/ir.model.access.csv',

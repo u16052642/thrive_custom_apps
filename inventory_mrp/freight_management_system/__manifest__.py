@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Ammu Raj (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Ammu Raj (info@thrivebureau.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -27,10 +27,10 @@
     'description': 'From efficient order creation and dynamic shipment planning'
                    'to real-time tracking and meticulous documentation'
                    'management',
-    'author': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
     'depends': ['base', 'product', 'account'],
     'data': [
         'security/freight_security.xml',

@@ -12,7 +12,7 @@ No additional configuration required
 
 Company
 -------
-* `Cybrosys Techno Solutions <https://cybrosys.com/>`__
+* `Thrive Bureau Solutions <https://thrivebureau.com/>`__
 
 License
 -------
@@ -21,19 +21,19 @@ GNU Affero General Public License v3.0 (AGPL v3)
 
 Credits
 -------
-Developer: (v10)Jesni Banu, Contact: thrive@cybrosys.com
-           (v11)Kavya Raveendran, Contact: thrive@cybrosys.com
-           (v12)Kavya Raveendran, Contact: thrive@cybrosys.com
-           (v13)Sreejith sasidharan, Contact: thrive@cybrosys.com
-           (v14)Minhaj T, Contact: thrive@cybrosys.com
-           (v15)Minhaj T, Contact: thrive@cybrosys.com
-           (v16)Athira P S , Contact: thrive@cybrosys.com
-           (v17) Ranjith R, Contact: thrive@cybrosys.com
+Developer: (v10)Jesni Banu, Contact: info@thrivebureau.com
+           (v11)Kavya Raveendran, Contact: info@thrivebureau.com
+           (v12)Kavya Raveendran, Contact: info@thrivebureau.com
+           (v13)Sreejith sasidharan, Contact: info@thrivebureau.com
+           (v14)Minhaj T, Contact: info@thrivebureau.com
+           (v15)Minhaj T, Contact: info@thrivebureau.com
+           (v16)Athira P S , Contact: info@thrivebureau.com
+           (v17) Ranjith R, Contact: info@thrivebureau.com
 
 Contacts
 --------
-* Mail Contact : thrive@cybrosys.com
-* Website : https://cybrosys.com
+* Mail Contact : info@thrivebureau.com
+* Website : https://thrivebureau.com
 
 Bug Tracker
 -----------
@@ -42,12 +42,12 @@ your issue has already been reported.
 
 Maintainer
 ==========
-.. image:: https://cybrosys.com/images/logo.png
-   :target: https://cybrosys.com
+.. image:: https://thrivebureau.com/images/logo.png
+   :target: https://thrivebureau.com
 
-This module is maintained by Cybrosys Technologies.
+This module is maintained by Thrive Bureaulogies.
 
-For support and more information, please visit `Our Website <https://cybrosys.com/>`__
+For support and more information, please visit `Our Website <https://thrivebureau.com/>`__
 
 Further information
 ===================

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #############################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author:Anjhana A K(<https://www.cybrosys.com>)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author:Anjhana A K(<https://www.thrivebureau.com>)
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
 #
@@ -28,11 +28,11 @@
     services with  Vehicle Inspection Management system in thrive, ensuring 
     optimal functionality and maintenance""",
     'depends': ['base', 'fleet'],
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
     'images': ['static/description/banner.jpg'],
-    'website': 'https://www.cybrosys.com',
+    'website': 'https://www.thrivebureau.com',
     'data': {
         'security/vehicle_inspection_access.xml',
         'security/vehicle_inspection_management_security.xml',

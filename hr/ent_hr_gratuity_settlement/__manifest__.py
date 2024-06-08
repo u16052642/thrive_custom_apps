@@ -3,8 +3,8 @@
 #
 #    A part of Open HRMS Project <https://www.openhrms.com>
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Cybrosys Techno Solutions (thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Thrive Bureau Solutions (info@thrivebureau.com)
 #
 #    This program is under the terms of the Odoo Proprietary License v1.0 (OPL-1)
 #    It is forbidden to publish, distribute, sublicense, or sell copies of the Software
@@ -25,9 +25,9 @@
     'category': 'Human Resources',
     'summary': """Employee Gratuity Settlement""",
     'description': 'To manage gratuity settlement for employees',
-    'author': "Cybrosys Techno Solutions,Open HRMS",
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': "Thrive Bureau Solutions,Open HRMS",
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
     'website': "https://www.openhrms.com",
     'depends': ['hr', 'hr_payroll', 'account_accountant', 'hr_holidays'],
     'data': [

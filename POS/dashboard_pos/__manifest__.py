@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
-#    Copyright (C) 2022-TODAY Cybrosys Technologies (<https://www.cybrosys.com>)
-#    Author: Subina P (thrive@cybrosys.com)
+#    Thrive Bureaulogies Pvt. Ltd.
+#    Copyright (C) 2022-TODAY Thrive Bureaulogies (<https://www.thrivebureau.com>)
+#    Author: Subina P (info@thrivebureau.com)
 #
 #    This program is free software: you can modify
 #    it under the terms of the GNU Affero General Public License (AGPL) as
@@ -25,10 +25,10 @@
     'category': 'Point of Sale',
     'summary': """Detailed dashboard view for POS""",
     'description': """Customized POS dashboard view""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
     'depends': ['hr', 'point_of_sale', 'web'],
     'data': [
         'views/pos_order_views.xml'

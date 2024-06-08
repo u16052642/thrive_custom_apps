@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #
-#   Cybrosys Technologies Pvt. Ltd.
+#   Thrive Bureaulogies Pvt. Ltd.
 #
-#   Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#   Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
+#   Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#   Author: Thrive Bureau Solutions(<https://www.thrivebureau.com>)
 #
 #   You can modify it under the terms of the GNU AFFERO
 #   GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -29,10 +29,10 @@
     'description': """The Database Restore Manager allows users to easily 
      restore and download backups uploaded by the auto_database_backup module,
      providing convenient backup management within the platform""",
-    'author': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'website': "https://www.cybrosys.com",
+    'author': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'website': "https://www.thrivebureau.com",
     'depends': ['base_setup', 'auto_database_backup'],
     'data': [
         'security/ir.model.access.csv',

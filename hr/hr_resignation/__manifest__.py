@@ -2,10 +2,10 @@
 #############################################################################
 #    A part of Open HRMS Project <https://www.openhrms.com>
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2023-TODAY Cybrosys Technologies(<https://www.cybrosys.com>)
-#    Author: Cybrosys Techno Solutions(<https://www.cybrosys.com>)
+#    Copyright (C) 2023-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>)
+#    Author: Thrive Bureau Solutions(<https://www.thrivebureau.com>)
 #
 #    You can modify it under the terms of the GNU LESSER
 #    GENERAL PUBLIC LICENSE (LGPL v3), Version 3.
@@ -27,9 +27,9 @@
     'summary': 'Manages the resignation process of the employees',
     'description': """This module helps to create and 
      approve/reject employee resignation requests""",
-    'author': 'Cybrosys Techno solutions,Open HRMS',
-    'company': 'Cybrosys Techno Solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
+    'author': 'Thrive Bureau solutions,Open HRMS',
+    'company': 'Thrive Bureau Solutions',
+    'maintainer': 'Thrive Bureau Solutions',
     'website': 'https://www.openhrms.com',
     'depends': ['hr', 'hr_employee_updation', 'mail', 'hr_contract'],
     'data': [

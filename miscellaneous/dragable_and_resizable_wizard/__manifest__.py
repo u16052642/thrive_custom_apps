@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 ################################################################################
 #
-#    Cybrosys Technologies Pvt. Ltd.
+#    Thrive Bureaulogies Pvt. Ltd.
 #
-#    Copyright (C) 2024-TODAY Cybrosys Technologies(<https://www.cybrosys.com>).
-#    Author: Vishnu KP(thrive@cybrosys.com)
+#    Copyright (C) 2024-TODAY Thrive Bureaulogies(<https://www.thrivebureau.com>).
+#    Author: Vishnu KP(info@thrivebureau.com)
 #
 #    You can modify it under the terms of the GNU AFFERO
 #    GENERAL PUBLIC LICENSE (AGPL v3), Version 3.
@@ -25,10 +25,10 @@
     'summary': 'Draggable Wizard help to expand the wizard',
     'description': 'Make Every Backend Wizard In thrive Resizable And Draggable.',
     'category': 'Extra Tools',
-    'author': 'Cybrosys Techno solutions',
-    'maintainer': 'Cybrosys Techno Solutions',
-    'company': 'Cybrosys Techno Solutions',
-    'website': 'https://www.cybrosys.com',
+    'author': 'Thrive Bureau solutions',
+    'maintainer': 'Thrive Bureau Solutions',
+    'company': 'Thrive Bureau Solutions',
+    'website': 'https://www.thrivebureau.com',
     'depends': ['base', 'web'],
     'assets': {
         'web.assets_backend': [
