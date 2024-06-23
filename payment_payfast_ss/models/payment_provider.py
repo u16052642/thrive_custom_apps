@@ -22,7 +22,7 @@ class PaymentAcquirerPayFast(models.Model):
 
     def get_payfast_api_url(self):
         self.ensure_one()
-        if self.state == "prod":
+        if self.state == "enabled":
             return "https://www.payfast.co.za"
         else:
             return "https://sandbox.payfast.co.za"

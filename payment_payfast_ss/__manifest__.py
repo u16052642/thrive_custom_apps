@@ -1,7 +1,7 @@
 {
     # App information
     "name": "PayFast Payment Provider",
-    "version": "17.0.1.1.1",
+    "version": "17.0.1.0.2",
     "category": "Accounting/Payment Providers",
     "summary": """Payment Acquirer: Payment PayFast Integration. Do payment same way like standard Payment method availables like Paypal,Amazon,Openpay,authorize,stripe,iPay, Conekta, Pay fast. Fast pay,fastpay""",
     "license": "OPL-1",
